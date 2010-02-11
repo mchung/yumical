@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+  <link rel='stylesheet' type='text/css' href='themes/ui-darkness/ui.all.css' />
+  <link rel='stylesheet' type='text/css' href='fullcalendar/fullcalendar.css' />
+  <link rel='stylesheet' type='text/css' href='style.css' />
+
+  <script type='text/javascript' src='fullcalendar/jquery/jquery.js'></script>
+  <script type='text/javascript' src='fullcalendar/jquery/ui.core.js'></script>
+  <script type='text/javascript' src='fullcalendar/jquery/ui.dialog.js'></script>
+  <script type='text/javascript' src='fullcalendar/fullcalendar.min.js'></script>
+  <script type='text/javascript' src='yumical.js'></script>
+  <script type='text/javascript'>
+  $(document).ready(function() {
+    var teaching_calendar = 'http://www.google.com/calendar/feeds/p5fak2qpg5jr67jhnrog9tm300@group.calendar.google.com/public/basic';
+    load_calendar(teaching_calendar);
+  });
+  </script>
+</head>
+
+<body>
+  <div id='loading' style='display:none'>loading...</div>
+  <div id='calendar'></div>
+</body>
+</html>

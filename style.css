@@ -1,0 +1,47 @@
+body {
+	margin-top: 40px;
+	text-align: center;
+	font-size: 14px;
+	font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+	background-color: #000;
+	color: #fff;
+}
+	
+#loading {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+#calendar {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.details {
+  padding-bottom: 14px;
+}
+
+.almoro_style,
+.fc-agenda .almoro_style .fc-event-time,
+.almoro_style a { background-color: #294E6B; border-color: #294E6B; color: white; }
+
+.default_style,
+.fc-agenda .default_style .fc-event-time,
+.default_style a { background-color: #AE0000; border-color: #AE0000; color: white; }
+
+.y_style,
+.fc-agenda .y_style .fc-event-time,
+.y_style a { background-color: #AE0000; border-color: #AE0000; color: white; }
+
+.azscb_style,
+.fc-agenda .azscb .fc-event-time,
+.azscb_style a { background-color: #8c602d; border-color: #8c602d; color: white; }
+
+.yenli_style,
+.fc-agenda .yenli_style .fc-event-time,
+.yenli_style a { background-color: #00A6AD; border-color: #00A6AD; color: white; }
+
+.ystudio_style,
+.fc-agenda .ystudio_style .fc-event-time,
+.ystudio_style a { background-color: #AE0000; border-color: #AE0000; color: white; }
