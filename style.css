@@ -36,11 +36,11 @@ body {
 
 .azscb_style,
 .fc-agenda .azscb .fc-event-time,
-.azscb_style a { background-color: #8c602d; border-color: #8c602d; color: white; }
+.azscb_style a { background-color: #7e7e7e; border-color: #7e7e7e; color: white; }
 
 .yenli_style,
 .fc-agenda .yenli_style .fc-event-time,
-.yenli_style a { background-color: #00A6AD; border-color: #00A6AD; color: white; }
+.yenli_style a { background-color: #800080; border-color: #800080; color: white; }
 
 .ystudio_style,
 .fc-agenda .ystudio_style .fc-event-time,
