@@ -19,7 +19,7 @@
     [/^al Moro/,                             "almoro_style"],
     [/^Arizona School of Classical Ballet/,  "azscb_style"],
     [/^AZSCB/,                               "azscb_style"],
-    [/^Yen-Li Chen/,                         "yenli_style"],
+    [/^Yen-Li Chen/,                         "yenli_style"]
   ];
 
   function set_location_from_style(event_loc) {
